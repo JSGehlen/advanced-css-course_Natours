@@ -1,0 +1,22 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "Landing page concept for a nature website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JSGehlen/advanced-css-course.git"
+  },
+  "author": "Jeremy Gehlen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JSGehlen/advanced-css-course/issues"
+  },
+  "homepage": "https://github.com/JSGehlen/advanced-css-course#readme",
+  "devDependencies": {
+    "node-sass": "^4.12.0"
+  }
+}
