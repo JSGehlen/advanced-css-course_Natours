@@ -90,4 +90,48 @@
               color: $color-primary;
           }
       }
+
+      @include respond(tab-land) {
+        
+        &__content {
+            @include absCenter;
+    
+            width: 95%;
+            
+        }
+    
+        &__left {
+            width: 0;
+            display: none;
+        }
+    
+        &__right {
+            width: 50%;
+        }
+    
+        &__img {
+            display: none;
+            width: 0;
+            visibility: hidden;
+        }
+    
+        &__text {
+
+            margin-bottom: 2rem;
+            -moz-column-count: 1;
+            -moz-column-gap: 4rem;
+            -moz-column-rule: .1rem solid $color-grey-light-2;
+    
+            column-count: 1;
+            column-gap: 4rem;
+            column-rule: .1rem solid $color-grey-light-2;
+    
+            -moz-hyphens: auto;
+            -ms-hyphens: auto;
+            -webkit-hyphens: auto;
+            hyphens: auto;
+        }
+    
+        
+      }
 }
